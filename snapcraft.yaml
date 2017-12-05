@@ -1,0 +1,16 @@
+name: instantnews
+version: '1.0.0'
+summary: Get Live news 
+description: |
+  Get Live news instantly with InstantNews
+
+grade: stable 
+confinement: devmode 
+apps:
+  instantnews:
+     command: instanews
+
+parts:
+  instantnews:
+    source: https://github.com/shivam043/instantnews.git
+    plugin: python
